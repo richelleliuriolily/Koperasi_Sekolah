@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     if (empty($username) || empty($password)) {
         $_SESSION['error'] = "Username dan password wajib diisi!";
-        header("Location: ../../pages/auth/login.php"); 
+        header("Location: ../../pages/auth/login.php"); // Sesuaikan path halaman view login Anda
         exit;
     }
 
@@ -27,7 +27,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 'type' => 'success',
                 'message' => 'Berhasil masuk ke sistem!'
             ];
-            header("Location: ../../pages/products/index.php"); 
+            header("Location: ../../pages/products/index.php"); // Alihkan ke halaman dashboard/produk
             exit;
         } else {
             $_SESSION['error'] = "Username atau password salah!";

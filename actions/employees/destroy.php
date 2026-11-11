@@ -24,5 +24,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     header("Location: ../../pages/employees/index.php");
     exit;
-    
 }

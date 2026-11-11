@@ -31,6 +31,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['old'] = $_POST;
         header("Location: ../../pages/employees/create.php");
         exit;
-        
     }
 }

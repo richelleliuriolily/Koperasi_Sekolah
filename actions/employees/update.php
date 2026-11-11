@@ -30,6 +30,5 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $_SESSION['error'] = "Gagal memperbarui database: " . $e->getMessage();
         header("Location: ../../pages/employees/edit.php?id=" . $employee_id);
         exit;
-        
     }
 }
