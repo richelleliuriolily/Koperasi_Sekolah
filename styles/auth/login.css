@@ -1,0 +1,14 @@
+body.auth-body {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+}
+
+.auth-container .card {
+    border: none;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    border-radius: 12px;
+}
+
+.auth-container .page-title {
+    color: #1a202c;
+    font-weight: 700;
+}
